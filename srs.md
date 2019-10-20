@@ -43,18 +43,18 @@ Table of Contents
 ## 1. Introduction
 <!-- The introduction of the SRS should provide an overview of the entire SRS -->
 ### 1.1 Document Purpose
-//Describe the purpose of the SRS and its intended audience.
+<!--//Describe the purpose of the SRS and its intended audience.-->
 This document intends to target other people, who knows how to programm and are interested in new ideas of projects. We want to inform them about our project and our ideas to develop it further.
 ### 1.2 Product Scope
 This SRS referes to the entire HypercasualGame project. The project is about building a game that is inspired by other very popular sidescroller games. The main tools to create this game are the game engine Unity and C#.
 ### 1.3 Definitions, Acronyms and Abbreviations
-//Abkürzungsverzeichnis
+<!--//Abkürzungsverzeichnis-->
 Not yet specified.
 ### 1.4 References
-//List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
+<!--//List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.-->
 Not yet specified.
 ### 1.5 Overview
-//Describe what the rest of SRS contains and how it is organized.
+<!--//Describe what the rest of SRS contains and how it is organized.-->
 We will describe the project further in how it works and how we want to organize the structure around the game.
 ## 2. Overall Description
 <!-- This section of the SRS should describe the general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3 of the SRS, and makes them easier to understand. -->
