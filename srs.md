@@ -1,9 +1,6 @@
 # Software Requirements Specification
-## For <project name>
-Version 0.1  
-Prepared by <author>  
-<organization>  
-<date created>  
+## For HypercasualGame
+Version 1.0  
 
 Table of Contents
 =================
@@ -15,12 +12,6 @@ Table of Contents
   * 1.4 [References](#14-references)
   * 1.5 [Overview](#15-overview)
 * 2 [Overall Description](#2-overall-description)
-  * 2.1 [Product Perspective](#21-product-perspective)
-  * 2.2 [Product Functions](#22-product-functions)
-  * 2.3 [Product Constraints](#23-product-constraints)
-  * 2.4 [User Characteristics](#24-user-characteristics)
-  * 2.5 [Assumptions and Dependencies](#25-assumptions-and-dependencies)
-  * 2.6 [Apportioning of Requirements](#26-apportioning-of-requirements)
 * 3 [Requirements](#3-requirements)
   * 3.1 [External Interfaces](#31-external-interfaces)
     * 3.1.1 [User Interfaces](#311-user-interfaces)
@@ -63,6 +54,7 @@ Table of Contents
 Describe the purpose of the SRS and its intended audience.
 ### 1.2 Product Scope
 Identify the product whose software requirements are specified in this document, including the revision or release number. Explain what the product that is covered by this SRS will do, particularly if this SRS describes only part of the system or a single subsystem. Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.
+This SRS referes to the entire HypercasualGame project. 
 ### 1.3 Definitions, Acronyms and Abbreviations
 ### 1.4 References
 List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
@@ -70,25 +62,7 @@ List any other documents or Web addresses to which this SRS refers. These may in
 Describe what the rest of SRS contains and how it is organized.
 ## 2. Overall Description
 <!-- This section of the SRS should describe the general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3 of the SRS, and makes them easier to understand. -->
-### 2.1 Product Perspective
-Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
-### 2.2 Product Functions
-Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
-### 2.3 Product Constraints
-This subsection of the SRS should provide a general description of any other items that will limit the devel-
-oper’s options. These include:  
-a) Interfaces to users, other applications or hardware.  
-b) Quality of service constraints.  
-c) Standards compliance.  
-d) Constraints around design or implementation.
-### 2.4 User Characteristics
-Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.
-### 2.5 Assumptions and Dependencies
-List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
-### 2.6 Apportioning of Requirements
-Apportion the software requirements to software elements. For requirements that will require implementation over multiple software elements, or when allocation to a software element is initially undefined, this should be so stated. A cross reference table by function and software element should be used to summarize the apportionments.
 
-Identify requirements that may be delayed until future versions of the system (e.g., blocks and/or increments).
 ## 3. Requirements
 <!-- Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements. Specify all of the software requirements to a level of detail sufficient to enable testers to test that the software system satisfies those requirements. At a minimum, describe every input (stimulus) into the software system, every output (response) from the software system, and all functions performed by the software system in response to an input or in support of an output.
 
