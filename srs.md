@@ -52,7 +52,7 @@ Revision History
     10. [Licensing Requirements ](#310-licensing-requirements)    
     11. [Legal, Copyright and Other Notices](#311-legal-copyright-and-other-notices)     
     12. [Applicable Standards](#312-applicable-standards)  
-4. [Supporting Information](#4-supporting-information)  
+4. [Supporting Information](#4-supporting-information)   
 
 # 1. Introduction
 
@@ -100,7 +100,7 @@ Revision History
 
 # 3. Specific Requirements
 
-[This section of the **SRS** contains all software requirements to a level of detail sufficient to enable designers to design a system to satisfy those requirements, and testers to test that the system satisfies those requirements. When using use-case modeling, these requirements are captured in the Use Cases and the applicable supplementary specifications.  If use-case modeling is not used, the outline for supplementary specifications may be inserted directly into this section, as shown below.]
+<div align="center"><img src="project-diagramm.jpg" alt="PartyPlayer UCD" /></div>
 
 ## 3.1 Functionality
 
