@@ -13,7 +13,7 @@ public class Stepdefs {
     public void today_is_Sunday() {
         System.out.println("Do something");
         ChromeDriver driver = new ChromeDriver();
-        String baseUrl = "https://www.google.com";
+        String baseUrl = "https://www.google.com/gmail";
         driver.get(baseUrl);
         //throw new cucumber.api.PendingException();
     }
