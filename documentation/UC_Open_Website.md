@@ -2,8 +2,9 @@
 
 # Use-Case Specification: Open Chrome Browser Website <!-- omit in toc -->
 
+
 ## Table of Contents <!-- omit in toc -->
-- [Connect Controller Cube](#connect-controller-cube)
+- [Open Chrome Browser Website](#open-chrome-browser-website)
   - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
@@ -11,11 +12,9 @@
     - [2.1.2 Mock Up](#212-mock-up)
 - [3. Special Requirements](#3-special-requirements)
 - [4. Preconditions](#4-preconditions)
-- [4.1 Title menu visible](#41-title-menu-visible)
-- [4.2 Cube powered on](#42-cube-powered-on)
+- [4.1 Title menu visible](#41-chrome-browser)
+- [4.2 Cube powered on](#42-network-connection)
 - [5. Postconditions](#5-postconditions)
-  - [5.1 Cube connected](#51-cube-connected)
-- [5.2 Button changes label](#52-button-changes-label)
 - [6. Extension Points](#6-extension-points)
 
 
@@ -34,7 +33,7 @@ The title menu includes a button for this function.
 
 #### 2.1.2 Mock Up
 
-![Cucumber Test](../../images/CucumberTest.gif)
+![CucumberTest](./CucumberTest.png)
 
 ## 3. Special Requirements
 
