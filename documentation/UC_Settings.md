@@ -32,7 +32,7 @@ The title menu includes a button for this function.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot Spiel Einstellungsseite.png)
+![SH_Settings](./Screenshot_Settings.png)
 
 ## 3. Special Requirements
 
