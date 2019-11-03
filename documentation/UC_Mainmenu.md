@@ -32,7 +32,7 @@ The title menu includes a button for this function.
 
 #### 2.1.2 Mock Up
 
-![SH_Mainmenu](./Screenshot Spiel Hauptseite.png)
+![SH_Mainmenu](./Screenshot_Mainmenu.png)
 
 ## 3. Special Requirements
 
