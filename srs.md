@@ -66,13 +66,20 @@ Revision History
 
 [Specify the purpose of this **SRS**. The **SRS** fully describes the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
 
+The purpose of this document is to build a hypercasualed game for computer and mobile applications.
+
 ## 1.2 Scope
 
 [A brief description of the software application that the **SRS** applies to, the feature or other subsystem grouping, what Use-Case model(s) it is associated with, and anything else that is affected or influenced by this document.]
 
+The game is aimed to be enjoyable, fun and to challenge one or many. Based on a Server-Client-connection, it shall connect multiple users in a further step, to play against each other.
+
 ## 1.3 Definitions, Acronyms, and Abbreviations
 
 [This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the **SRS**.  This information may be provided by reference to the project&#39;s Glossary.]
+
+OS operating system
+UCD use case diagram
 
 ## 1.4 References
 
@@ -98,6 +105,35 @@ blbb
 • assumptions and dependencies
 
 • requirements subsets]
+
+**Product Perspective:**
+The user interface is to be on any computer and is not depending on the installed operating system (OS). 
+Therefor we need an hardware interface to the mouse and the keyboard.
+On Android-based smartphones and tablets we are going to use the display to control the application. 
+
+In both cases, the application is directly installed on the OS. There will be a system interface to the server,
+mainly for the global challenging mode. However, the data of singleplayers will also be able to connect to 
+the server to save their local data and play in global challenges.
+
+**Design and Implementation Constraints:**
+There are some contraints regarding the design and the implementation.
+For dessign, there are issues with the vary of the displays on smartphones, tablets and computers.
+Even the control differs from device to device as described in the previous subchapter.
+However, the server is the centralized data storage. Its behaviour depends on the amount of available 
+SQL queries. The provided way of communication between players over our server is depending on the 
+user device and the server device.
+There also are constraints for the memory allocation in all these devices. We want to provide an 
+application with little installation effort regarding the memory size and temporary allocation.
+
+**User Charactistics:**
+Based on the use case diagrams (UCD) the user can check the application's settings like managing 
+the account he logged in, change the sound or the appearence or start the game itself. 
+
+**Product Functions:**
+(n/a)
+
+**Assumptions:**
+(n/a)
 
 # 3. Specific Requirements
 
