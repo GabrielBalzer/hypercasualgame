@@ -58,7 +58,7 @@ Revision History
 
 [The introduction of the **Software Requirements Specification (SRS)** provides an overview of the entire **SRS**. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of the **SRS**.]
 
-[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirements—with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
+[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirementsâ€”with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
 
 [Many different arrangements of an **SRS** are possible.  Refer to [IEEE830-1998] for further elaboration of these explanations, as well as other options for **SRS** organization.]
 
@@ -83,7 +83,7 @@ UCD use case diagram
 
 ## 1.4 References
 
-[This subsection provides a complete list of all documents referenced elsewhere in the **SRS**.  Identify each document by title, report number if applicable, date, and publishing organization.  Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
+[This subsection provides a complete a list of all documents referenced elsewhere in the **SRS**.  Identify each document by title, report number if applicable, date, and publishing organization.  Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
 
 ## 1.5 Overview
 
@@ -93,18 +93,18 @@ UCD use case diagram
 
 [This section of the **SRS** describes the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in detail in Section 3, and makes them easier to understand. Include such items as:
 
-• product perspective
+â€¢ product perspective
 
-• product functions
+â€¢ product functions
 blbb
 
-•  user characteristics
+â€¢  user characteristics
 
-• constraints2
+â€¢ constraints2
 
-• assumptions and dependencies
+â€¢ assumptions and dependencies
 
-• requirements subsets]
+â€¢ requirements subsets]
 
 **Product Perspective:**
 The user interface is to be on any computer and is not depending on the installed operating system (OS). 
@@ -137,7 +137,7 @@ the account he logged in, change the sound or the appearence or start the game i
 
 # 3. Specific Requirements
 
-<div align="center"><img src="project-diagramm.jpg" alt="PartyPlayer UCD" /></div>
+<div align="center"><img src="https://github.com/GabrielBalzer/hypercasualgame/blob/master/exchange/project-diagramm.jpg" alt="UCD Ted's Quest" /></div>
 
 ## 3.1 Functionality
 
@@ -165,12 +165,12 @@ Where application development tools, such as requirements tools, modeling tools,
 
 [Requirements for reliability of the system should be specified here. Some suggestions follow:
 
-- Availability—specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, and so on.
-- Mean Time Between Failures (MTBF) — this is usually specified in hours, but it could also be specified in terms of days, months or years.
-- Mean Time To Repair (MTTR)—how long is the system allowed to be out of operation after it has failed?
-- Accuracy—specifies precision (resolution) and accuracy (by some known standard) that is required in the system&#39;s output.
-- Maximum Bugs or Defect Rate—usually expressed in terms of bugs per thousand lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
-- Bugs or Defect Rate—categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a &quot;critical&quot; bug; for example, complete loss of data or a complete inability to use certain parts of the system&#39;s functionality.]
+- Availabilityâ€”specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, and so on.
+- Mean Time Between Failures (MTBF) â€” this is usually specified in hours, but it could also be specified in terms of days, months or years.
+- Mean Time To Repair (MTTR)â€”how long is the system allowed to be out of operation after it has failed?
+- Accuracyâ€”specifies precision (resolution) and accuracy (by some known standard) that is required in the system&#39;s output.
+- Maximum Bugs or Defect Rateâ€”usually expressed in terms of bugs per thousand lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
+- Bugs or Defect Rateâ€”categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a &quot;critical&quot; bug; for example, complete loss of data or a complete inability to use certain parts of the system&#39;s functionality.]
 
 ### 3.3.1 Reliability Requirement One
 
