@@ -1,27 +1,35 @@
-#1
+#1 Introduction
 itemize (B2.7)
 TrackYourFit (B3.1)
-#2
+
+#2 Team Roles
 Cardgame (B2.9)
 TheFriendsLook (B3.8)
-#3
+
+#3 Usecase-Diagram, SRS
 Orchestra (B2.6)
 PiPossible (B3.9)
-#4
+
+#4 Mock-Ups
 GreenClothaway (B2.10)
 TowerDefense (B4.9)
-#5
+
+#5 Automated Testing (Gherkin/Cucumber)
 GyroGame (B3.4)
 LogicGame (B3.5)
-#6
+
+#6 YouTrack/SCRUM
 Arrerac (B3.2)
 GameBase (B4.3)
-#7
+
+#7 Retrospective
 Cardgame (B2.9)
 LogicGame (B3.5)
-#8
+
+#8 Class Diagrams
 Hopper (B2.1)
 GameBase (B4.3)
-#9
+
+#9 MVC
 Evendo (B2.4)
 LogicGame (B3.5)
