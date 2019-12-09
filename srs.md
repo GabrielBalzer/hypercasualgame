@@ -70,9 +70,8 @@ The game is aimed to be enjoyable, fun and to challenge one or many. Based on a 
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
 
-OS:  operating system 
-
-UCD:  use case diagram
+OS operating system
+UCD use case diagram
 
 ## 1.4 References
 
@@ -258,7 +257,8 @@ There shall be a link to report bugs in the settings of the application.
 
 ## 3.9 Interfaces
 
-[This section defines the interfaces that must be supported by the application. It should contain adequate specificity, protocols, ports and logical addresses, and the like, so that the software can be developed and verified against the interface requirements.]
+The application shall be runt on smartphones and computers. 
+The used interface is decided by the Unity Framwork.
 
 ### 3.9.1 User Interfaces
 
@@ -272,31 +272,24 @@ be no support for smartphones of the company Apple.
 
 ### 3.9.3 Software Interfaces
 
-[This section describes software interfaces to other components of the software system. These may be purchased components, components reused from another application or components being developed for subsystems outside of the scope of this **SRS** but with which this software application must interact.]
+(n/a)
 
 ### 3.9.4 Communications Interfaces
 
-[Describe any communications interfaces to other systems or devices such as local area networks, remote serial devices, and so forth.]
+(n/a)
 
 ## 3.10 Licensing Requirements
 
-[Defines any licensing enforcement requirements or other usage restriction requirements that are to be exhibited by the software.]
+The application shall be open source under the GPL version 2 or any later version.
 
 ## 3.11 Legal, Copyright, and Other Notices
 
-[This section describes any necessary legal disclaimers, warranties, copyright notices, patent notices, wordmark, trademark, or logo compliance issues for the software.]
+The developers are not responsible for any impact, the game might have on the user.
 
 ## 3.12 Applicable Standards
 
-[This section describes by reference any applicable standard and the specific sections of any such standards which apply to the system being described. For example, this could include legal, quality and regulatory standards, industry standards for usability, interoperability, internationalization, operating system compliance, and so forth.]
+(n/a) 
 
 # 4. Supporting Information
 
-[The supporting information makes the **SRS** easier to use.  It includes:
-
-- Table of contents
-- Index
-- Appendices
-
-These may include use-case storyboards or user-interface proto
- types. When appendices are included, the **SRS** should explicitly state whether or not the appendices are to be considered part of the requirements.]
+(n/a)
