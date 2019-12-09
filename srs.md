@@ -70,8 +70,9 @@ The game is aimed to be enjoyable, fun and to challenge one or many. Based on a 
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
 
-OS operating system
-UCD use case diagram
+OS:  operating system 
+
+UCD:  use case diagram
 
 ## 1.4 References
 
