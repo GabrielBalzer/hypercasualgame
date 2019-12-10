@@ -18,7 +18,7 @@
 ## Mainmenu
 
 ### 1.1 Brief Description
-When starting the application, thethe user has some choices on what to do next, either starting the game or checking the settings.
+When starting the application, the user has some choices on what to do next, either starting the game or checking the settings.
 
 The title menu includes a button for each of this functions.
 ## 2. Flow of Events
