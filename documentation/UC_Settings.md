@@ -1,6 +1,6 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted'S Quest <!-- omit in toc -->
+# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 - [Open Chrome Browser Website](#Settings)
@@ -18,8 +18,8 @@
 ## Settings
 
 ### 1.1 Brief Description
-In the settings menu it is possible to manage the own user account, sound and user interface settings, 
-read about the developer or get redirected to the main menu.
+In the settings menu the user can manage their account, sound and user interface settings, 
+read about the developers (view the credits) or get redirected to the main menu.
 
 The title menu includes a button for this function.
 ## 2. Flow of Events
