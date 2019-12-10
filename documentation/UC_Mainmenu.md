@@ -1,6 +1,6 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Mainmenu of Ted'S Quest <!-- omit in toc -->
+# Use-Case Specification: Mainmenu of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 - [Open Chrome Browser Website](#Mainmenu)
@@ -18,10 +18,9 @@
 ## Mainmenu
 
 ### 1.1 Brief Description
-When starting the application, there are many user-based choices what to do next. 
-Either to start the game or to check the settings.
+When starting the application, thethe user has some choices on what to do next, either starting the game or checking the settings.
 
-The title menu includes a button for this function.
+The title menu includes a button for each of this functions.
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
