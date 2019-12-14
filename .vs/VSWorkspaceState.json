@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\tedsquest",
+    "\\tedsquest\\Assets",
+    "\\tedsquest\\Assets\\Scripts"
   ],
-  "SelectedNode": "\\srs.md",
+  "SelectedNode": "\\tedsquest\\Assets\\Scripts\\Player.cs",
   "PreviewInSolutionExplorer": false
 }
