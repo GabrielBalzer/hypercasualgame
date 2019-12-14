@@ -56,59 +56,37 @@ Revision History
 
 # 1. Introduction
 
-[The introduction of the **Software Requirements Specification (SRS)** provides an overview of the entire **SRS**. It includes the purpose, scope, definitions, acronyms, abbreviations, references, and overview of the **SRS**.]
-
-[Note: The **SRS** document captures the complete software requirements for the system, or a portion of the system.  Following is a typical **SRS** outline for a project using only traditional, natural-language style requirements—with **no use-case modeling.  ** It captures all requirements in a single document, with applicable sections inserted from the Supplementary Specifications (which would no longer be needed).  For a template of an **SRS** using use-case modeling, which consists of a package containing Use Cases of the use-case model and applicable Supplementary Specifications and other supporting information, see rup\_srsuc.dot.]
-
-[Many different arrangements of an **SRS** are possible.  Refer to [IEEE830-1998] for further elaboration of these explanations, as well as other options for **SRS** organization.]
+This document describes the **SRS** of the game **Ted's Quest** by **Ted's Entertainment**. 
+It includes the purpose, scope, definitions, acronyms, abbrevations, references to other
+documents and an overview of the **SRS**.
 
 ## 1.1 Purpose
-
-[Specify the purpose of this **SRS**. The **SRS** fully describes the external behavior of the application or subsystem identified. It also describes nonfunctional requirements, design constraints, and other factors necessary to provide a complete and comprehensive description of the requirements for the software.]
 
 The purpose of this document is to build a hypercasualed game for computer and mobile applications.
 
 ## 1.2 Scope
 
-[A brief description of the software application that the **SRS** applies to, the feature or other subsystem grouping, what Use-Case model(s) it is associated with, and anything else that is affected or influenced by this document.]
-
 The game is aimed to be enjoyable, fun and to challenge one or many. Based on a Server-Client-connection, it shall connect multiple users in a further step, to play against each other.
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
-
-[This subsection provides the definitions of all terms, acronyms, and abbreviations required to properly interpret the **SRS**.  This information may be provided by reference to the project&#39;s Glossary.]
 
 OS operating system
 UCD use case diagram
 
 ## 1.4 References
 
-[This subsection provides a complete a list of all documents referenced elsewhere in the **SRS**.  Identify each document by title, report number if applicable, date, and publishing organization.  Specify the sources from which the references can be obtained. This information may be provided by reference to an appendix or to another document.]
+(n/a) 
 
 ## 1.5 Overview
 
-[This subsection describes what the rest of the **SRS** contains and explains how the document is organized.]
+This section describes the overview on the document. First ther is an overall description.
+After, there will be many requirements listed by their belonging. 
 
 # 2. Overall Description
 
-[This section of the **SRS** describes the general factors that affect the product and its requirements.  This section does not state specific requirements.  Instead, it provides a background for those requirements, which are defined in detail in Section 3, and makes them easier to understand. Include such items as:
-
-• product perspective
-
-• product functions
-blbb
-
-•  user characteristics
-
-• constraints2
-
-• assumptions and dependencies
-
-• requirements subsets]
-
 **Product Perspective:**
 The user interface is to be on any computer and is not depending on the installed operating system (OS). 
-Therefor we need an hardware interface to the mouse and the keyboard.
+Therefore we need an hardware interface to the mouse and the keyboard.
 On Android-based smartphones and tablets we are going to use the display to control the application. 
 
 In both cases, the application is directly installed on the OS. There will be a system interface to the server,
@@ -141,118 +119,177 @@ the account he logged in, change the sound or the appearence or start the game i
 
 ## 3.1 Functionality
 
-[This section describes the functional requirements of the system for those requirements that are expressed in the natural language style. For many applications, this may constitute the bulk of the **SRS** package and thought should be given to the organization of this section. This section is typically organized by feature, but alternative organization methods may also be appropriate; for example, organization by user or organization by subsystem. Functional requirements may include feature sets, capabilities, and security.
+### 3.1.1 Functional Requirement One - Login
 
-Where application development tools, such as requirements tools, modeling tools, and the like, are employed to capture the functionality, this section of the document would refer to the availability of that data, indicating the location and name of the tool used to capture the data.]
+A functional requirement shall be the login account. The user shall be able to choose between 
+a new local account or login with his Google account.
 
-### 3.1.1 Functional Requirement One
+### 3.1.2 Functional Requirement Two - Manage Account
 
-[The requirement description.]
+It shall be possible for the user to manage his account. Therefore it shall be possible to 
+logout, delete the account or update any personal information.
+
+### 3.1.3 Functional Requirement Three - Manage Sound
+
+It shall be possible to change the sound from the application to either turn in on or off 
+globally.
+
+### 3.1.4 Functional Requirement Four - User Interface
+
+The application shall provide two views, a dark and a light mode.
+
+### 3.1.5 Functional Requirement Five - About
+
+The application shall provide a short description about the application and its developer team.
+It shall also provide some basic help for the user.
+
+### 3.1.6 Functional Requirement Six - Choose a Level
+
+It shall be possible to have a simple overview over the possible levels. Only the actual and 
+the previous levels, that have been ended successfully shall always be accessible. Else, if
+the previous level has not been ended successfully, the level shall be locked.
+
+### 3.1.7 Functional Requirement Seven - Customization
+
+It shall be possible to customize the main character, the stickman. 
+
+### 3.1.8 Functional Requirement Eight - Upgrade
+
+It shall be possible to upgrade the weapons and powerups by purchasing objects by both, real 
+money and collected coins from the playthrough.
+
+### 3.1.9 Functional Requirement Nine - Update the Application
+
+The application shall update itself automatically, without user input.
 
 ## 3.2 Usability
 
-[This section includes all those requirements that affect usability. For example,
+### 3.2.1 Usability Requirement One - Simple handling of the Application
 
-- specify the required training time for a normal users and a power user to become productive at particular operations
-- specify measurable task times for typical tasks or base the new system&#39;s usability requirements on other systems that the users know and like
-- specify requirement to conform to common usability standards, such as IBM&#39;s CUA standards Microsoft&#39;s GUI standards]
+It shall be easy to start and play the application. It shall be easy to learn and handle the 
+control of the application itself. The user interface shall be simple and intuitive. 
 
-### 3.2.1 Usability Requirement One
+### 3.2.2 Usability Requirement Two - Simple handling of the Main Character
 
-[The requirement description goes here.]
+It shall be easy to control the main character, on the computer as well as on the smartphone.
+The control shall be intuitive and simple.
+
+### 3.2.3 Usability Requirement Three - Application Crash
+
+When the application crashes for minor reasons that do not affect the user, the user 
+shall not get to know it. The application shall rebuild itself.
+
+### 3.2.4 Usability Requirement Four - Tutorial
+
+There shall be a tutorial in the beginning of the game after the first start. It shall be 
+possible to always access the tutorial.
+
+### 3.2.5 Usability Requirement Five - Report to the Developers
+
+The user shall have a way to report a problem or give positive and negative feedback.
+
+### 3.2.6 Usability Requirement Six - Leave Game 
+
+It shall be possible to leave the game at any time. Either by clicking on "back", on clicking 
+the "home button" both on the smartphone or by clicking "X" which represents the exit button.
+Also when leaving the focus on the game on the operating system, the application shall pause.
 
 ## 3.3 Reliability
 
-[Requirements for reliability of the system should be specified here. Some suggestions follow:
+### 3.3.1 Reliability Requirement One - Fluent Gameplay
 
-- Availability—specify the percentage of time available ( xx.xx%), hours of use, maintenance access, degraded mode operations, and so on.
-- Mean Time Between Failures (MTBF) — this is usually specified in hours, but it could also be specified in terms of days, months or years.
-- Mean Time To Repair (MTTR)—how long is the system allowed to be out of operation after it has failed?
-- Accuracy—specifies precision (resolution) and accuracy (by some known standard) that is required in the system&#39;s output.
-- Maximum Bugs or Defect Rate—usually expressed in terms of bugs per thousand lines of code (bugs/KLOC) or bugs per function-point( bugs/function-point).
-- Bugs or Defect Rate—categorized in terms of minor, significant, and critical bugs: the requirement(s) must define what is meant by a &quot;critical&quot; bug; for example, complete loss of data or a complete inability to use certain parts of the system&#39;s functionality.]
+While using the application, it shall be fluent. There shall no stuttering or long pauses.
 
-### 3.3.1 Reliability Requirement One
+### 3.3.2 Reliability Requirement Two - Application Crash
 
-[The requirement description.]
+When the application crashes, it shall not crash. It shall recover itself in a way, the user 
+will not be affected.
+
+### 3.3.3 Reliability Requirement Three - Time to Repair
+
+The time to repair the system shall not overexceed one minute.
 
 ## 3.4 Performance
 
-[The system&#39;s performance characteristics are outlined in this section. Include specific response times. Where applicable, reference related Use Cases by name.
+### 3.4.1 Performance Requirement One - Performance
 
-- Response time for a transaction (average, maximum)
-- Throughput, for example, transactions per second
-- Capacity, for example, the number of customers or transactions the system can accommodate
-- Degradation modes (what is the acceptable mode of operation when the system has been degraded in some manner)
-- Resource utilization, such as memory, disk, communications, and so forth.
+The application shall run at atleast 30 FPS.
 
-### 3.4.1 Performance Requirement One
+### 3.4.2 Performance Requirement Two - User Capacity
 
-[The requirement description goes here.]
+The game shall be for a single user only per installation.
+
+### 3.4.3 Performance Requirement Three - Local Resources
+
+The application shall run at a minimum disk space and shall run independendly from the 
+operating system. It application shall also not use too much memory space.
 
 ## 3.5 Supportability
 
-[This section indicates any requirements that will enhance the supportability or maintainability of the system being built, including coding standards, naming conventions, class libraries, maintenance access, and maintenance utilities.]
+### 3.5.1 Supportability Requirement One - Maintainable Code
 
-### 3.5.1 Supportability Requirement One
+The source code shall be kept simple and so, it shall be easy to maintain. The code shall 
+be divided into a MVC-relied way.
 
-[The requirement description goes here.]
+### 3.5.2 Supportability Requirement Two - Reported Bugs
+
+Reported bugs shall be updated in the source code every month. So, many bugs can be fixed in 
+one time and the time to maintain the code is reduced.
 
 ## 3.6 Design Constraints
 
-[This section indicates any design constraints on the system being built. Design constraints represent design decisions that have been mandated and must be adhered to.  Examples include software languages, software process requirements, prescribed use of developmental tools, architectural and design constraints, purchased components, class libraries, and so on.]
+### 3.6.1 Design Constraint One - Architecture
 
-### 3.6.1 Design Constraint One
+Since the architecture is to be MVC, the source code is divided in three separate parts.
 
-[The requirement description goes here.]
+### 3.6.2 Design Constraint Two - Models
+
+Since the team only uses open-source tools, the team is kept low with every tool. Otherwise
+there shall be used way more tools.
 
 ## 3.7 On-line User Documentation and Help System Requirements
 
-[Describes the requirements, if any, for o-line user documentation, help systems, help about notices, and so forth.]
+There shall be a link to report bugs in the settings of the application. 
 
 ## 3.8 Purchased Components
 
-[This section describes any purchased components to be used with the system, any applicable licensing or usage restrictions, and any associated compatibility and interoperability or interface standards.]
+(n/a) 
 
 ## 3.9 Interfaces
 
-[This section defines the interfaces that must be supported by the application. It should contain adequate specificity, protocols, ports and logical addresses, and the like, so that the software can be developed and verified against the interface requirements.]
+The application shall be runt on smartphones and computers. 
+The used interface is decided by the Unity Framwork.
 
 ### 3.9.1 User Interfaces
 
-[Describe the user interfaces that are to be implemented by the software.]
+There shall be a dark mode and a light mode, chosen by the user. Initially the light mode is 
+turned on.
 
 ### 3.9.2 Hardware Interfaces
 
-[This section defines any hardware interfaces that are to be supported by the software, including logical structure, physical addresses, expected behavior, and so on.]
+The application is mostly hardware indepenent. At the time for the first release, there shall 
+be no support for smartphones of the company Apple.
 
 ### 3.9.3 Software Interfaces
 
-[This section describes software interfaces to other components of the software system. These may be purchased components, components reused from another application or components being developed for subsystems outside of the scope of this **SRS** but with which this software application must interact.]
+(n/a)
 
 ### 3.9.4 Communications Interfaces
 
-[Describe any communications interfaces to other systems or devices such as local area networks, remote serial devices, and so forth.]
+(n/a)
 
 ## 3.10 Licensing Requirements
 
-[Defines any licensing enforcement requirements or other usage restriction requirements that are to be exhibited by the software.]
+The application shall be open source under the GPL version 2 or any later version.
 
 ## 3.11 Legal, Copyright, and Other Notices
 
-[This section describes any necessary legal disclaimers, warranties, copyright notices, patent notices, wordmark, trademark, or logo compliance issues for the software.]
+The developers are not responsible for any impact, the game might have on the user.
 
 ## 3.12 Applicable Standards
 
-[This section describes by reference any applicable standard and the specific sections of any such standards which apply to the system being described. For example, this could include legal, quality and regulatory standards, industry standards for usability, interoperability, internationalization, operating system compliance, and so forth.]
+(n/a) 
 
 # 4. Supporting Information
 
-[The supporting information makes the **SRS** easier to use.  It includes:
-
-- Table of contents
-- Index
-- Appendices
-
-These may include use-case storyboards or user-interface proto
- types. When appendices are included, the **SRS** should explicitly state whether or not the appendices are to be considered part of the requirements.]
+(n/a)
