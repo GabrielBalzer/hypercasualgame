@@ -115,15 +115,17 @@ application with little installation effort regarding the memory size and tempor
 Based on the use case diagrams (UCD) the user can check the application's settings like managing 
 the account he logged in, change the sound or the appearence or start the game itself. 
 
-**Use Cases:**
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Mainmenu.md">Use Case: Main Menu</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Settings.md">Use Case: Settings</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_moveright.png">Act. Diag.: Move Right</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_MoveRight.png">Screenshot: Move Right</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_storymenu.png">Act. Diag.: Story Menu</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Storymenu.png">Screenshot: Story Menu</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_jump.png">Act. Diag.: Jump</a></br>
-<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Jump.png">Screenshot: Jump</a></br>
+**Use Cases:**</br>
+<ul>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Mainmenu.md">Use Case: Main Menu</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Settings.md">Use Case: Settings</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_moveright.png">Act. Diag.: Move Right</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_MoveRight.png">Screenshot: Move Right</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_storymenu.png">Act. Diag.: Story Menu</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Storymenu.png">Screenshot: Story Menu</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_jump.png">Act. Diag.: Jump</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Jump.png">Screenshot: Jump</a></br></li>
+<ul>
 
 **Product Functions:**
 (n/a)
@@ -267,12 +269,14 @@ there shall be used way more tools.
 
 ### 3.6.3 Design Constraint Three - Development Tools
 
-We decided to use the following tools, to help developing the game:
+We decided to use the following tools, to help developing the game:</br>
 
-<b>YouTrack</b> Project Management and Issue Tracker Sytem</br>
-<b>GitHub</b> Version Control System</br>
-<b>Unity</b> Game Engine</br>
-<b>Visual Studio</b> IDE used for scripting within Unity</br>
+<ul>
+<li><b>YouTrack</b> Project Management and Issue Tracker Sytem</br></li>
+<li><b>GitHub</b> Version Control System</br></li>
+<li><b>Unity</b> Game Engine</br></li>
+<li><b>Visual Studio</b> IDE used for scripting within Unity</br></li>
+</ul>
 
 ## 3.7 On-line User Documentation and Help System Requirements
 
