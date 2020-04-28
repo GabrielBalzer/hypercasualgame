@@ -125,7 +125,7 @@ the account he logged in, change the sound or the appearence or start the game i
 <li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Storymenu.png">Screenshot: Story Menu</a></br></li>
 <li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_jump.png">Act. Diag.: Jump</a></br></li>
 <li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Jump.png">Screenshot: Jump</a></br></li>
-<ul>
+</ul>
 
 **Product Functions:**
 (n/a)
