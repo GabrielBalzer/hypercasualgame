@@ -75,7 +75,13 @@ UCD use case diagram
 
 ## 1.4 References
 
-(n/a) 
+<a href="https://hypercasual.wordpress.com/" Title="Blog">
+<a href="https://dhbw-karlsruhe.myjetbrains.com/youtrack/dashboard?id=f29a1b9e-a4f4-4c06-8ad9-c7f0e6cc7e58" Title="YouTrack Documentation">
+<a href="https://github.com/GabrielBalzer/hypercasualgame" Title="General GitHub Repository">
+<a href="https://github.com/GabrielBalzer/hypercasualgame/tree/master/hellocucumber" Title="Cucumber Testing GitHub">
+<a href="https://github.com/GabrielBalzer/hypercasualgame/tree/master/tedsquest" Title="Source Code Game GitHub">
+<a href="https://github.com/GabrielBalzer/hypercasualgame/blob/master/SAD.pdf" Title="SAD">
+<a href="https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use-Case_diagram_updated.png" Title="Overall Use-Case Diagram">
 
 ## 1.5 Overview
 
@@ -93,6 +99,8 @@ In both cases, the application is directly installed on the OS. There will be a 
 mainly for the global challenging mode. However, the data of singleplayers will also be able to connect to 
 the server to save their local data and play in global challenges.
 
+<div align="center"><img src="https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use-Case_diagram.png" alt="UCD Ted's Quest" /></div>
+
 **Design and Implementation Constraints:**
 There are some contraints regarding the design and the implementation.
 For dessign, there are issues with the vary of the displays on smartphones, tablets and computers.
@@ -106,6 +114,16 @@ application with little installation effort regarding the memory size and tempor
 **User Charactistics:**
 Based on the use case diagrams (UCD) the user can check the application's settings like managing 
 the account he logged in, change the sound or the appearence or start the game itself. 
+
+**Use Cases:**
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Mainmenu.md" title="Use Case: Main Menu">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Settings.md" title="Use Case: Settings">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_moveright.png" title="Act. Diag.: Move Right">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_MoveRight.png" title="Screenshot: Move Right">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_storymenu.png" title="Act. Diag.: Story Menu">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Storymenu.png" title="Screenshot: Story Menu">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_jump.png" title="Act. Diag.: Jump">
+<a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Jump.png" title="Screenshot: Jump">
 
 **Product Functions:**
 (n/a)
@@ -246,6 +264,15 @@ Since the architecture is to be MVC, the source code is divided in three separat
 
 Since the team only uses open-source tools, the team is kept low with every tool. Otherwise
 there shall be used way more tools.
+
+### 3.6.3 Design Constraint Three - Development Tools
+
+We decided to use the following tools, to help developing the game:
+
+<b>YouTrack</b> Project Management and Issue Tracker Sytem
+<b>GitHub</b> Version Control System
+<b>Unity</b> Game Engine
+<b>Visual Studio</b> IDE used for scripting within Unity
 
 ## 3.7 On-line User Documentation and Help System Requirements
 
