@@ -46,6 +46,6 @@ The title menu includes a button for this function.
 
 (n/a)
 
-## 6. Extension Points
+## 6. Function Points
 
-(n/a)
+![FP_Settings](./FunctionPoints/UC_Settings_Neu.png)

@@ -45,6 +45,6 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 (n/a)
 
-## 6. Extension Points
+## 6. Function Points
 
-(n/a)
+![FP_Settings](./FunctionPoints/UC_Jump_Neu.png)
