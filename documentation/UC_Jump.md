@@ -31,7 +31,7 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Jump.png)
+![SH_Settings](./Screenshot_Jump.PNG)
 
 ## 3. Special Requirements
 
