@@ -1,9 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: Mainmenu of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
+- [Open Chrome Browser Website](#Mainmenu)
   - [1.1 Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
@@ -15,24 +15,23 @@
 - [6. Extension Points](#6-extension-points)
 
 
-## Settings
+## Mainmenu
 
 ### 1.1 Brief Description
-In the settings menu the user can manage their account, sound and user interface settings, 
-read about the developers (view the credits) or get redirected to the main menu.
+When starting the application, the user has some choices on what to do next, either starting the game or checking the settings.
 
-The title menu includes a button for this function.
+The title menu includes a button for each of this functions.
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
 
 #### 2.1.1 Activity Diagram
 
-![AD_Settings](./Activity_dia_settings.png)
+![AD_Mainmenu](./Activity_dia_mainmenu.png)
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Settings.PNG)
+![SH_Mainmenu](./Screenshot_Mainmenu.png)
 
 ## 3. Special Requirements
 
@@ -48,4 +47,4 @@ The title menu includes a button for this function.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Settings_Neu.PNG)
+![FP_Settings](./FunctionPoints/UC_Mainmenu_Neu.png)

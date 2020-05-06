@@ -31,7 +31,7 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_MoveRight.png)
+![SH_Settings](./Screenshot_MoveRight.PNG)
 
 ## 3. Special Requirements
 
@@ -47,4 +47,4 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_MoveRight_Neu.png)
+![FP_Settings](./FunctionPoints/UC_MoveRight_Neu.PNG)

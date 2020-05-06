@@ -32,7 +32,7 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_shoot.png)
+![SH_Settings](./Screenshot_shoot.PNG)
 
 ## 3. Special Requirements
 

@@ -18,21 +18,21 @@
 ## Settings
 
 ### 1.1 Brief Description
-In the settings menu the user can manage their account, sound and user interface settings, 
-read about the developers (view the credits) or get redirected to the main menu.
+In the soundsettings menu the user can manage their sounds, if the music or effect sounds should be played. 
+The Sound of the choosen type is activated or deactivated through checking or unchecking the checkboxes.
 
-The title menu includes a button for this function.
+The settings menu includes a button for this function.
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
 
 #### 2.1.1 Activity Diagram
 
-![AD_Settings](./Activity_dia_settings.png)
+![AD_Settings](./Activity_dia_soundsettings.png)
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Settings.PNG)
+![SH_Settings](./Screenshot_Soundsettings.png)
 
 ## 3. Special Requirements
 
@@ -48,4 +48,4 @@ The title menu includes a button for this function.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Settings_Neu.PNG)
+(n/a)

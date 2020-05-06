@@ -18,8 +18,9 @@
 ## Settings
 
 ### 1.1 Brief Description
-In the settings menu the user can manage their account, sound and user interface settings, 
-read about the developers (view the credits) or get redirected to the main menu.
+In the storymenu the user can choose which Part of the story you want to start.
+There will be multiple choices, from chapter 1 to whichever amount on chapters we implement. 
+Clicking on one of the Buttons will start the game in this specific chapter.
 
 The title menu includes a button for this function.
 ## 2. Flow of Events
@@ -28,11 +29,11 @@ The title menu includes a button for this function.
 
 #### 2.1.1 Activity Diagram
 
-![AD_Settings](./Activity_dia_settings.png)
+![AD_Settings](./Activity_dia_storymenu.png)
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Settings.PNG)
+![SH_Settings](./Screenshot_Storymenu.png)
 
 ## 3. Special Requirements
 
@@ -48,4 +49,4 @@ The title menu includes a button for this function.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Settings_Neu.PNG)
+![FP_Settings](./FunctionPoints/UC_Storymenu_Neu.png)

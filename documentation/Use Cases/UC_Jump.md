@@ -18,21 +18,20 @@
 ## Settings
 
 ### 1.1 Brief Description
-In the settings menu the user can manage their account, sound and user interface settings, 
-read about the developers (view the credits) or get redirected to the main menu.
-
-The title menu includes a button for this function.
+Jump is a possible action in the game. You can jump over platforms or to reach a higher place. 
+The Stickman you control jumps a medium range in the top and can be redirectioned.
+This Use-Case is just useable after starting the story in one of the chapters.
 ## 2. Flow of Events
 
 ### 2.1 Basic Flow
 
 #### 2.1.1 Activity Diagram
 
-![AD_Settings](./Activity_dia_settings.png)
+![AD_Settings](./Activity_dia_jump.png)
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Settings.PNG)
+![SH_Settings](./Screenshot_Jump.PNG)
 
 ## 3. Special Requirements
 
@@ -48,4 +47,4 @@ The title menu includes a button for this function.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Settings_Neu.PNG)
+![FP_Settings](./FunctionPoints/UC_Jump_Neu.png)

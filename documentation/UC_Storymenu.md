@@ -33,7 +33,7 @@ The title menu includes a button for this function.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Storymenu.png)
+![SH_Settings](./Screenshot_Storymenu.PNG)
 
 ## 3. Special Requirements
 
@@ -49,4 +49,4 @@ The title menu includes a button for this function.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Storymenu_Neu.png)
+![FP_Settings](./FunctionPoints/UC_Storymenu_Neu.PNG)
