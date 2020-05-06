@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\tedsquest",
-    "\\tedsquest\\Assets",
-    "\\tedsquest\\Assets\\Scripts"
+    "\\documentation",
+    "\\documentation\\FunctionPoints"
   ],
-  "SelectedNode": "\\tedsquest\\Assets\\Scripts\\Player.cs",
+  "SelectedNode": "\\documentation\\UC_Mainmenu.md",
   "PreviewInSolutionExplorer": false
 }
