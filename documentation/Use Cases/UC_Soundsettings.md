@@ -1,10 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: Soundsettings of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Settings
 
-### 1.1 Brief Description
+## 1. Brief Description
 In the soundsettings menu the user can manage their sounds, if the music or effect sounds should be played. 
 The Sound of the choosen type is activated or deactivated through checking or unchecking the checkboxes.
 

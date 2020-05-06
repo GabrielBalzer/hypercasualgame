@@ -1,10 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: Storymenu of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Settings
 
-### 1.1 Brief Description
+## 1. Brief Description
 In the storymenu the user can choose which Part of the story you want to start.
 There will be multiple choices, from chapter 1 to whichever amount on chapters we implement. 
 Clicking on one of the Buttons will start the game in this specific chapter.

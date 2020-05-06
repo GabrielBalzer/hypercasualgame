@@ -1,10 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: MoveRight of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Settings
 
-### 1.1 Brief Description
+## 1. Brief Description
 MoveRight is a possible action in the game. You can move right in order to continue further in the level. 
 The Stickman you control can also move to the left, this Use-Case is also an Example for it.
 This Use-Case is just useable after starting the story in one of the chapters.

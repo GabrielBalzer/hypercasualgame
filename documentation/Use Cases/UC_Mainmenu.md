@@ -3,8 +3,7 @@
 # Use-Case Specification: Mainmenu of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Mainmenu)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Mainmenu
 
-### 1.1 Brief Description
+## 1. Brief Description
 When starting the application, the user has some choices on what to do next, either starting the game or checking the settings.
 
 The title menu includes a button for each of this functions.
@@ -31,7 +30,7 @@ The title menu includes a button for each of this functions.
 
 #### 2.1.2 Mock Up
 
-![SH_Mainmenu](./Screenshot_Mainmenu.PNG)
+![SH_Mainmenu](./Screenshot_Mainmenu.png)
 
 ## 3. Special Requirements
 

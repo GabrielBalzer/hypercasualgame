@@ -1,10 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: Jump of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Settings
 
-### 1.1 Brief Description
+## 1. Brief Description
 Jump is a possible action in the game. You can jump over platforms or to reach a higher place. 
 The Stickman you control jumps a medium range in the top and can be redirectioned.
 This Use-Case is just useable after starting the story in one of the chapters.

@@ -1,10 +1,9 @@
 # Hypercasual Game <!-- omit in toc -->
 
-# Use-Case Specification: Settings of Ted's Quest <!-- omit in toc -->
+# Use-Case Specification: Shoot of Ted's Quest <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
-- [Open Chrome Browser Website](#Settings)
-  - [1.1 Brief Description](#11-brief-description)
+- [1. Brief Description](#11-brief-description)
 - [2. Flow of Events](#2-flow-of-events)
   - [2.1 Basic Flow](#21-basic-flow)
     - [2.1.1 Activity Diagram](#211-activity-diagram)
@@ -17,7 +16,7 @@
 
 ## Settings
 
-### 1.1 Brief Description
+## 1. Brief Description
 Shoot is a possible action in the game. You can shoot in line of vision. 
 The Stickman you control can shoot wooden crests to destroy them.
 This Use-Case is just useable after starting the story in one of the chapters.
@@ -32,7 +31,7 @@ This Use-Case is just useable after starting the story in one of the chapters.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_shoot.PNG)
+![SH_Settings](./Screenshot_Shoot.PNG)
 
 ## 3. Special Requirements
 
