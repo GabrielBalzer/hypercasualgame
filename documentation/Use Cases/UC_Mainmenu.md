@@ -31,7 +31,7 @@ The title menu includes a button for each of this functions.
 
 #### 2.1.2 Mock Up
 
-![SH_Mainmenu](./Screenshot_Mainmenu.png)
+![SH_Mainmenu](./Screenshot_Mainmenu.PNG)
 
 ## 3. Special Requirements
 
@@ -47,4 +47,4 @@ The title menu includes a button for each of this functions.
 
 ## 6. Function Points
 
-![FP_Settings](./FunctionPoints/UC_Mainmenu_Neu.png)
+![FP_Settings](../FunctionPoints/UC_Mainmenu_Neu.PNG)

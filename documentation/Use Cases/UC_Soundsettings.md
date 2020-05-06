@@ -32,7 +32,7 @@ The settings menu includes a button for this function.
 
 #### 2.1.2 Mock Up
 
-![SH_Settings](./Screenshot_Soundsettings.png)
+![SH_Settings](./Screenshot_Soundsettings.PNG)
 
 ## 3. Special Requirements
 
