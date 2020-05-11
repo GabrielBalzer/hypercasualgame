@@ -390,7 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172770723}
   - component: {fileID: 172770724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rightupperleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 178014024}
   - component: {fileID: 178014027}
   - component: {fileID: 178014028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 247475957}
   - component: {fileID: 247475958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rightlowerleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,7 +663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347323247}
   - component: {fileID: 347323248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leftlowerleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,12 +732,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &507880314 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8508509683476278030, guid: 63e8be7c86c2a9b4eb82c55505355350,
-    type: 3}
-  m_PrefabInstance: {fileID: 8508509683916900468}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c541f40221b0eff499dd3370b18125f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woodboxPrefab: {fileID: 507880314}
+  woodboxPrefab: {fileID: 8508509683476278030, guid: 63e8be7c86c2a9b4eb82c55505355350,
+    type: 3}
   respawnTime: 1
 --- !u!20 &519420031
 Camera:
@@ -793,7 +788,7 @@ Camera:
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
+  m_GateFitMode: 1
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -804,8 +799,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
-  orthographic size: 5
+  orthographic: 0
+  orthographic size: 6.069877
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -845,7 +840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608077773}
   - component: {fileID: 608077772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rand_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,7 +897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696871172}
   - component: {fileID: 696871173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 708900060}
   - component: {fileID: 708900061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leftupperleg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1060,7 +1055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850996413}
   - component: {fileID: 850996414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leftupperarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1281,7 +1276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094634058}
   - component: {fileID: 1094634059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: leftforearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1360,7 +1355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1168889769}
   - component: {fileID: 1168889770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rightupperarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1614,7 +1609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1487916072}
   - component: {fileID: 1487916071}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1671,13 +1666,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1525194864}
   - component: {fileID: 1525194863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rand_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1525194863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1728,7 +1723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1582504282}
   - component: {fileID: 1582504283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1807,7 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1684469339}
   - component: {fileID: 1684469340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rightforearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}

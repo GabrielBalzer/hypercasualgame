@@ -24,7 +24,7 @@ public class woodbox : MonoBehaviour
     {
         if(transform.position.x < screenBounds.x * 2)
         {
-            Console.WriteLine(screenBounds.x + " " + screenBounds.y + " " + Screen.width + " " + Screen.height);   
+            //Console.WriteLine(screenBounds.x + " " + screenBounds.y + " " + Screen.width + " " + Screen.height);   
             Destroy(this.gameObject);
         }
     }

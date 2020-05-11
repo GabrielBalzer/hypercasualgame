@@ -28,7 +28,7 @@ public class rig : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         TedPlayer ted = new TedPlayer();
-        if(ted != null)
+        if(collision.transform.name == "Player")
         {
             Destroy(gameObject);
             return;
