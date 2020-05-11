@@ -97,6 +97,3 @@ $RECYCLE.BIN/
 *.lnk^
 
 # Java builds
-
-*/target
-/tedsquest/Assets
