@@ -117,11 +117,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3105531140515435777}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.6340001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b86f694de06a4b4fa1235c9a4969d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   speed: 10
 --- !u!114 &523334621545453115
 MonoBehaviour:
@@ -157,3 +158,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformAPrefab: {fileID: 0}
   respawnTime: 1
+=======
+  speed: 3
+>>>>>>> Stashed changes

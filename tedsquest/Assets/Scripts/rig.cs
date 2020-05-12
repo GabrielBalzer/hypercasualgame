@@ -17,7 +17,6 @@ public class rig : MonoBehaviour
     }
 
     [SerializeField]
-    //private bool moving;
     private Vector3 velocity;
 
     private void FixedUpdate()
@@ -28,7 +27,6 @@ public class rig : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         TedPlayer ted = new TedPlayer();
-        //TedPlayer ted = collision.collider.GetComponent < TedPlayer > ();
         if(collision.transform.name == "Player")
         {
             Destroy(gameObject);

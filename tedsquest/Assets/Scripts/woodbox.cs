@@ -7,7 +7,7 @@ using System;
 
 public class woodbox : MonoBehaviour
 {
-    public float speed = 20.0f;
+    public float speed = 5.0f;
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
@@ -22,9 +22,8 @@ public class woodbox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.x < screenBounds.x * 2)
+        if (transform.position.x < screenBounds.x)
         {
-            //Console.WriteLine(screenBounds.x + " " + screenBounds.y + " " + Screen.width + " " + Screen.height);   
             Destroy(this.gameObject);
         }
     }

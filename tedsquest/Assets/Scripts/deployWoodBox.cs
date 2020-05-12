@@ -14,23 +14,15 @@ public class deployWoodBox : MonoBehaviour
     {
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         StartCoroutine(WoodBoxWave());
-        //Update();
     }
 
     private void spawnWoodBox()
     {
         GameObject a = Instantiate(woodboxPrefab) as GameObject;
-        //a.transform.position = new Vector2(screenBounds.x * -2, Random.Range(-screenBounds.y, screenBounds.y));
-        a.transform.position = new Vector2(screenBounds.x * -(float)Convert.ToDouble(0.5), UnityEngine.Random.Range(-screenBounds.y, screenBounds.y));
-        //a.transform.position = new Vector2(screenBounds.x * -1, UnityEngine.Random.Range(-screenBounds.y, screenBounds.y));
-
-        //GameObject a = Instantiate(woodboxPrefab) as GameObject;
-        //GameObject a = Instantiate<GameObject>(woodboxPrefab);
-        //a.transform.position = transform.position + Camera.main.transform.forward * 2;
+        a.transform.position = new Vector2(screenBounds.x * -UnityEngine.Random.Range(0f, 0.75f), UnityEngine.Random.Range(-screenBounds.y, screenBounds.y));
     }
 
     IEnumerator WoodBoxWave()
-    //void Update()
     {
         while (true)
         {
