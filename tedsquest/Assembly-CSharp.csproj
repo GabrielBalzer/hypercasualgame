@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\deployPlatformA.cs" />
     <Compile Include="Assets\Scripts\deployWoodBox.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
     <Compile Include="Assets\Scripts\Platform01.cs" />
+    <Compile Include="Assets\Scripts\platformA.cs" />
     <Compile Include="Assets\Scripts\Platforms.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PowerUps.cs" />

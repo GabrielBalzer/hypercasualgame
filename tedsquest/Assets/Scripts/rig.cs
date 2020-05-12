@@ -28,6 +28,7 @@ public class rig : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         TedPlayer ted = new TedPlayer();
+        //TedPlayer ted = collision.collider.GetComponent < TedPlayer > ();
         if(collision.transform.name == "Player")
         {
             Destroy(gameObject);
@@ -39,7 +40,7 @@ public class rig : MonoBehaviour
             return;
         }
 
-        if(collision.contacts[0].normal.y < -0.5)
+        if((collision.contacts[0].normal.y < -0.5) && (collision.transform.name == "Player")) // only player can be able to destroy game object
         {
             Destroy(gameObject);
         }
