@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\documentation",
-    "\\documentation\\FunctionPoints"
+    "\\documentation\\FunctionPoints",
+    "\\documentation\\Use Cases"
   ],
-  "SelectedNode": "\\documentation\\UC_Soundsettings.md",
+  "SelectedNode": "\\documentation\\Use Cases\\UC_Open_Website.md",
   "PreviewInSolutionExplorer": false
 }

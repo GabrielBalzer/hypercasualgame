@@ -117,14 +117,13 @@ the account he logged in, change the sound or the appearence or start the game i
 
 **Use Cases:**</br>
 <ul>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Mainmenu.md">Use Case: Main Menu</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/UC_Settings.md">Use Case: Settings</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_moveright.png">Act. Diag.: Move Right</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_MoveRight.png">Screenshot: Move Right</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_storymenu.png">Act. Diag.: Story Menu</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Storymenu.png">Screenshot: Story Menu</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Activity_dia_jump.png">Act. Diag.: Jump</a></br></li>
-<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Screenshot_Jump.png">Screenshot: Jump</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Mainmenu.md">Use Case: Main Menu</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Settings.md">Use Case: Settings</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Storymenu.md">Use Case: Story Menu</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Soundsettings.md">Use Case: Soundsettings</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_MoveRight.md">Use Case: Move Right</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Jump.md">Use Case: Jump</a></br></li>
+<li><a href = "https://github.com/GabrielBalzer/hypercasualgame/blob/master/documentation/Use%20Cases/UC_Shoot.md">Use Case: Shoot</a></br></li>
 </ul>
 
 **Product Functions:**
