@@ -15,7 +15,6 @@ public class deployPlatformA : MonoBehaviour
     {
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         StartCoroutine(PlatformAWave());
-        //Update();
     }
 
     private void spawnPlatformA()
