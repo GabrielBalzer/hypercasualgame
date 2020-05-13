@@ -11,23 +11,20 @@ GameObject:
   - component: {fileID: 1687457403816662901}
   - component: {fileID: 1687457403816662900}
   - component: {fileID: 1889320638353614091}
-  - component: {fileID: 3071852238422219283}
   - component: {fileID: 1687457403816662899}
   - component: {fileID: 1687457403816662898}
   - component: {fileID: 1525273320904460024}
-<<<<<<< Updated upstream
-=======
   - component: {fileID: 319178914}
   - component: {fileID: 319178915}
+  - component: {fileID: 319178910}
   - component: {fileID: 319178911}
->>>>>>> Stashed changes
   m_Layer: 1
   m_Name: Platform Type B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1687457403816662901
 Transform:
   m_ObjectHideFlags: 0
@@ -97,25 +94,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687457403816662897}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b86f694de06a4b4fa1235c9a4969d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
---- !u!114 &3071852238422219283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687457403816662897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1edcac88df4fbc24596e739348d1d7b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
+  speed: 20
 --- !u!50 &1687457403816662899
 Rigidbody2D:
   serializedVersion: 4
@@ -124,19 +108,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687457403816662897}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 3
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!61 &1687457403816662898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,7 +128,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687457403816662897}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -177,8 +161,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformAPrefab: {fileID: 0}
   respawnTime: 5
-<<<<<<< Updated upstream
-=======
 --- !u!68 &319178914
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -215,6 +197,20 @@ EdgeCollider2D:
   m_Points:
   - {x: -1.08, y: 0}
   - {x: 1.08, y: 0}
+--- !u!114 &319178910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687457403816662897}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504df4da6ac8d2244ad08d626dae7892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformAPrefab: {fileID: 0}
+  respawnTime: 1
 --- !u!114 &319178911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,4 +224,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
->>>>>>> Stashed changes
