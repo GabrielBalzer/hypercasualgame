@@ -8,7 +8,6 @@ public class deployPlatformA : MonoBehaviour
     public GameObject platformAPrefab;
     public float respawnTime = 1.0f;
     private Vector2 screenBounds;
-    private Rigidbody2D rb2D;
 
     // Start is called before the first frame update
     void Start()
