@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\documentation",
-    "\\documentation\\FunctionPoints",
-    "\\documentation\\Use Cases"
+    "\\documentation"
   ],
-  "SelectedNode": "\\documentation\\Use Cases\\UC_Open_Website.md",
+  "SelectedNode": "\\srs.md",
   "PreviewInSolutionExplorer": false
 }
