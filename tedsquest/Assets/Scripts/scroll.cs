@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class scroll : MonoBehaviour
+public class scroll : Singleton<scroll>
 {
     public float speed = 0.5f;
     // Start is called before the first frame update

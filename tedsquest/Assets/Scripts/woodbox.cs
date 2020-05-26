@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System;
 
-public class woodbox : MonoBehaviour
+public class woodbox : Singleton<woodbox>
 {
     public float speed = 5.0f;
     private Rigidbody2D rb;

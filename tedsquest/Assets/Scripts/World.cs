@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 //using Player.cs;
 
-public class World : MonoBehaviour
+public class World : Singleton<World>
 {
 
     private int background;

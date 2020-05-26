@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\PowerUps.cs" />
     <Compile Include="Assets\Scripts\rig.cs" />
     <Compile Include="Assets\Scripts\scroll.cs" />
+    <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\TedPlayer.cs" />
     <Compile Include="Assets\Scripts\woodbox.cs" />
     <Compile Include="Assets\Scripts\World.cs" />

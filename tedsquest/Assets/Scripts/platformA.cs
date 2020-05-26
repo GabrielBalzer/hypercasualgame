@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System;
 
-public class platformA : MonoBehaviour
+public class platformA : Singleton<platformA>
 {
     public float speed = 20.0f;
     private Rigidbody2D rb;

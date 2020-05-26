@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class deployWoodBox : MonoBehaviour
+public class deployWoodBox : Singleton<deployWoodBox>
 {
     public GameObject woodboxPrefab;
     public float respawnTime = 1.0f;

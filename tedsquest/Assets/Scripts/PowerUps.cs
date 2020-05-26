@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerUps : MonoBehaviour
+public class PowerUps : Singleton<PowerUps>
 {
 
     private float position_x;

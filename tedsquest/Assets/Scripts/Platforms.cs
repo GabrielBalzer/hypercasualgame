@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Platforms : MonoBehaviour
+public class Platforms : Singleton<Platforms>
 {
     private float position_x;
     private float position_y;

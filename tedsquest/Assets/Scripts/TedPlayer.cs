@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TedPlayer : MonoBehaviour
+public class TedPlayer : Singleton<TedPlayer>
 {
     // Start is called before the first frame update
     void Start()

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class deployPlatformA : MonoBehaviour
+public class deployPlatformA : Singleton<deployPlatformA>
 {
     public GameObject platformAPrefab;
     public float respawnTime = 1.0f;

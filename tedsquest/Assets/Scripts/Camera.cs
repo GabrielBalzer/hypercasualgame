@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cameracontrol : MonoBehaviour
+public class Cameracontrol : Singleton<Cameracontrol>
 {
 
     private float speed;

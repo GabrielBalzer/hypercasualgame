@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public class Platform01 : MonoBehaviour
+public class Platform01 : Singleton<Platform01>
 {
     float dirX, moveSpeed = 3f;
     bool moveRight = true;

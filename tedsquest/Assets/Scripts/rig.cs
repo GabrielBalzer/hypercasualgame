@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class rig : MonoBehaviour
+public class rig : Singleton<rig>
 {
     // Start is called before the first frame update
     void Start()
