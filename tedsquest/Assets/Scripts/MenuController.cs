@@ -25,4 +25,10 @@ public class MenuController : Singleton<MenuController>
     {
         SceneManager.LoadScene("StorySettings");
     }
+
+    public static void pausemenu()
+    {
+        SceneManager.LoadScene("PauseScene");
+    }
+
 }
