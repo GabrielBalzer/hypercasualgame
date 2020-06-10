@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : Singleton<MenuController>
 {
-  public void startgame()
+    public void startgame()
     {
         SceneManager.LoadScene("MainScene");
     }
@@ -29,6 +29,11 @@ public class MenuController : Singleton<MenuController>
     public static void pausemenu()
     {
         SceneManager.LoadScene("PauseScene");
+    }
+
+    public void pauseaudio()
+    {
+        audioplayer.instance.PauseAudio();
     }
 
 }
