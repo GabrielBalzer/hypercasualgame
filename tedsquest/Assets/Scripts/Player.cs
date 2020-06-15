@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Singleton<Player>
 {
@@ -44,6 +46,11 @@ public class Player : Singleton<Player>
         if(collision.gameObject.name.Equals("Platform01"))
         {
             this.transform.parent = collision.transform;
+        }
+
+        if((transform.position.x <= -playerbounds.x) && (collision.transform.tag == "Ground") && !(collision.transform.position.y < transform.position.y))
+        {
+            SceneManager.LoadScene("StartScene");
         }
     }
 

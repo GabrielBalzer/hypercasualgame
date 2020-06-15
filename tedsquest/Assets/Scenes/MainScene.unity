@@ -542,7 +542,7 @@ MonoBehaviour:
   speed: 10
   jump: 500
   darfspringen: 0
-  playerbounds: {x: 9.5, y: 0}
+  playerbounds: {x: 10, y: 0}
 --- !u!95 &178014028
 Animator:
   serializedVersion: 3
@@ -2527,7 +2527,7 @@ GameObject:
   - component: {fileID: 1851860875}
   m_Layer: 0
   m_Name: Platform Type C
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

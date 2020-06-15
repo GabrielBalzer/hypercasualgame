@@ -23,7 +23,7 @@ public class EndSession : MonoBehaviour
         do
         {
             yield return new WaitForSeconds(1);
-            //--delay;
+            
         }
         while (--delay > 0);
 
