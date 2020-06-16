@@ -29,6 +29,7 @@ public class rig : Singleton<rig>
         TedPlayer ted = new TedPlayer();
         if(collision.transform.name == "Player")
         {
+            scoreCount.scoreValue += 1;
             Destroy(gameObject);
             return;
         }
