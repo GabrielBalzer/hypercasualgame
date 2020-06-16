@@ -43,7 +43,8 @@ public class Player : Singleton<Player>
     {
         if(collision.transform.tag == "Ground") darfspringen = true;
 
-        if(collision.gameObject.name.Equals("Platform01"))
+        if((collision.gameObject.name.Equals("Platform01"))|| (collision.gameObject.name.Equals("platformA")) ||
+            (collision.gameObject.name.Equals("platformB")) || (collision.gameObject.name.Equals("platformC")))
         {
             this.transform.parent = collision.transform;
         }
@@ -56,7 +57,8 @@ public class Player : Singleton<Player>
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.name.Equals("Platform01"))
+        if((collision.gameObject.name.Equals("Platform01")) || (collision.gameObject.name.Equals("platformA")) || 
+        (collision.gameObject.name.Equals("platformB")) || (collision.gameObject.name.Equals("platformC")))
         {
             this.transform.parent = null;
         }
