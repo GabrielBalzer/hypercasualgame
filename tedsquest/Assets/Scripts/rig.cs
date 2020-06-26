@@ -34,12 +34,13 @@ public class rig : Singleton<rig>
             return;
         }
         Platform01 platform01 = collision.collider.GetComponent<Platform01>();
-        if(platform01 != null)
+        if (platform01 != null)
         {
             return;
         }
 
-        if((collision.contacts[0].normal.y < -0.5) && (collision.transform.name == "Player")) // only player can be able to destroy game object
+        if ((collision.contacts[0].normal.y < -0.5) && (collision.transform.name == "Player")
+        ) // only player can be able to destroy game object
         {
             Destroy(gameObject);
         }
