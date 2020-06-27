@@ -19,7 +19,8 @@ public class deployWoodBox : Singleton<deployWoodBox>
     private void spawnWoodBox()
     {
         GameObject a = Instantiate(woodboxPrefab) as GameObject;
-        a.transform.position = new Vector2(screenBounds.x * -UnityEngine.Random.Range(0f, 0.75f), UnityEngine.Random.Range(-screenBounds.y, screenBounds.y));
+        //a.transform.position = new Vector2(screenBounds.x * -UnityEngine.Random.Range(0f, 0.75f), UnityEngine.Random.Range(-screenBounds.y, screenBounds.y));
+        a.transform.position = new Vector2(screenBounds.x * -1, UnityEngine.Random.Range((float)0.7, (screenBounds.y / 2)));
     }
 
     IEnumerator WoodBoxWave()
